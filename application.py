@@ -13,7 +13,6 @@ def hello_world():
 def compare():
     return compare_api.compare(request.get_json())
 
-
 if __name__ == '__main__':
     application.debug = True
     port = int(os.environ.get("PORT", 5000))

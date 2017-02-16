@@ -34,7 +34,7 @@ def compare(request):
         'start_latitude':start_lat,
         'start_longitude':start_lng,
         'end_latitude':end_lat,
-        'end_longitude':end_longitude
+        'end_longitude':end_lng
     }
     uber_headers = {
         'Authorization':'Token ' + UBER_KEY
